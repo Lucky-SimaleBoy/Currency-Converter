@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency_converter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MyCurrencyConverter</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contect Us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Currency Select Kar convert karne ke liye</h1>
+      <form action="/action.php" method="get">
+        <label for="Currency">Give Quantity </label>
+        <input type="number" name="quantity"  id="input" min="1" max="10" />
+        <label for="Currency">Currency Select kar </label>
+        <select name="CURRENCY" id="select">
+          <option value="INR">Indian Rupee</option>
+          <option value="USD">US Dollar</option>
+          <option value="EUR">EURO</option>
+        </select>
+        <button class="btn" value="Submit">Submit</button>
+      </form>
+      <div class="output">
+        <h2>Ye rahi tumari converted currency</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Currency Code</th>
+                    <th>Value</th>
+                  </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RAM</td>
+                <td>AAasf</td>
+                <td>fwF</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>Lucky @ Gupta and Devlopment</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

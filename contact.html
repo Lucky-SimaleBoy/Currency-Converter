@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: #ffb300;
+        display: flex;
+        font-size: 20px;
+
+        padding: 20px;
+      }
+      nav .logo {
+        font-family: "Pacifico", cursive;
+        font-style: normal;
+        font-weight: 900;
+      }
+      nav li a {
+        text-decoration: none;
+        color: black;
+        transition: all;
+        transition-duration: 500ms;
+      }
+      nav li a:hover {
+        text-decoration: none;
+        color: black;
+        color: rgba(255, 0, 0, 0.625);
+      }
+      nav ul {
+        display: flex;
+        text-decoration-line: none;
+        text-decoration: none;
+      }
+      nav ul li {
+        list-style: none;
+        font-family: "Pacifico", cursive;
+        margin-left: 25px;
+      }
+      .container {
+        min-height: 100vh;
+        
+      margin-left: 40px;
+        font-family: "Pacifico", cursive;
+      }
+      .container h1 {
+        padding: 15px;
+      }
+      .container ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 40vw;
+        height: 400px;
+        transition: all;
+        transition-duration: 500ms;
+        border-radius: 30px;
+        border-style: solid;
+        list-style: none;
+      }
+      .container li {
+        border-style: solid;
+        height: 60px;
+        margin-left: 18%;
+        width: 400px;
+        border-radius: 10px;
+
+        margin-bottom: 10px;
+      }
+      .container ul li a {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
+      .container ul li a #link {
+        margin-bottom: 20px;
+      }
+      .container ul li img {
+        height: 40px;
+        margin-top: 8px;
+        margin-right: 80px;
+      }
+      .container ul :hover {
+        background-color: #ffb300;
+        transition: all;
+        transition-duration: 500ms;
+      }
+      @media (max-width: 600px) {
+        *{
+             margin: 0;
+             padding: 0;
+        }
+        nav {
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+        }
+        .container ul{
+          border: none;
+          margin-right: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MyCurrencyConverter</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contect Us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="inf">
+        <ul>
+          <li>
+            <a
+              id="link"
+              href="https://www.instagram.com/luckygupta9073?igsh=cjJ1dnk1cDZwY2oy&utm_source=ig_contact_invite"
+              ><img src="instagram.svg" alt="" />Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              id="link"
+              href="https://www.linkedin.com/in/lucky-gupta-aba348318"
+              ><img src="linkedin.svg" alt="" />Linkedin</a
+            >
+          </li>
+          <li>
+            <a id="link" href="http://t.me/Lucky_gupta12"
+              ><img src="telegram.svg" alt="" />telegram</a
+            >
+          </li>
+          <li>
+            <a id="link" href="http://Wa.me/+9336959311"
+              ><img src="whatsapp.svg" alt="" />whatsapp</a
+            >
+          </li>
+          <li>
+            <a id="link" href="https://www.facebook.com/share/1A7vhTmmQu/"
+              ><img src="facebook.svg" alt="" />facebook</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Pacifico", cursive;
+        font-style: normal;
+      }
+      nav {
+        background-color: #ffb300;
+        display: flex;
+        font-size: 20px;
+
+        padding: 20px;
+      }
+      nav .logo {
+        font-family: "Pacifico", cursive;
+        font-style: normal;
+        font-weight: 900;
+      }
+      nav li a {
+        text-decoration: none;
+        color: black;
+        transition: all;
+        transition-duration: 500ms;
+      }
+      nav li a:hover {
+        text-decoration: none;
+        color: black;
+        color: rgba(255, 0, 0, 0.625);
+      }
+      nav ul {
+        display: flex;
+        text-decoration-line: none;
+        text-decoration: none;
+      }
+      nav ul li {
+        list-style: none;
+        font-family: "Pacifico", cursive;
+        margin-left: 25px;
+      }
+      @media (max-width: 600px) {
+        
+        nav {
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+        }
+        .container {
+          flex-direction: column;
+          width: 100px;
+        }
+        .container .hero{
+          background-color: red;
+        width: 70px;
+        }
+        .about{
+          font-size: 10px;
+        
+        }
+      }
+      .about {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 15px;
+      }
+      .container {
+        display: flex;
+
+      }
+      .container img {
+        width: 70%;
+        height: 70%;
+        border-radius: 10px;
+        margin-left: 30px;
+      }
+      .container .hero{
+       margin-top: 50px;
+       font-size: 20px;
+        width: 600px;
+        margin-left: 15%;
+      }
+      .container .hero p{
+    
+        font-size: 25px;
+        transition: all;
+        transition-delay: 1s;
+        transition-duration: 2s;
+        transition-timing-function: ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MyCurrencyConverter</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contect Us</a></li>
+      </ul>
+    </nav>
+    <div class="about">
+      <h1>About us</h1>
+    </div>
+    <div class="container">
+      <div class="hero">
+        <h2>Welcome to mu currency converter Website</h2>
+        <p>
+          Hellow I am Lucky Gupta . I am a student and I am an aime fan .Mera
+          favorite anime Naruto hai because  in that anime every villain want peace.
+        </p>
+      </div>
+
+      <div class="img">
+        <img src="1231.gpg.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
